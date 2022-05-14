@@ -1,0 +1,37 @@
+{
+  "name": "iblue-atividade",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha 'test.js'",
+    "start": "nodemon index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSaldanha15/SQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MSaldanha15/SQL/issues"
+  },
+  "homepage": "https://github.com/MSaldanha15/SQL#readme",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.3.6"
+  }
+}
